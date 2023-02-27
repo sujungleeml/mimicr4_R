@@ -5,7 +5,6 @@
  # install.packages('dbplot')
  # install.packages("skimr")
  # install.packages("ggplot2")
-#  install.packages("xlsx")
 #여러줄 주석은 ctrl+Shift+c
 #rstudioapi::addTheme("https://raw.githubusercontent.com/dracula/rstudio/master/dracula.rstheme", apply = TRUE) #콘솔에서 설치
 #---------------------------------------------------------------------------
@@ -22,7 +21,6 @@ library(lubridate)
 library(dbplot)
 library(skimr)
 library(ggplot2)
-library(xlsx)
 #library(Hmisc)
 #library(pastecs)
 #library(psych)

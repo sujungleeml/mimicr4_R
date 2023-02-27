@@ -87,7 +87,7 @@ d_labitems %>% filter(label %LIKE% "%spa%")
 ast_itemid <- c(50878)
 
 d_labitems %>% filter(label %LIKE% "%amma%")
-ggt_itmeid <- c(50927)
+ggt_itemid <- c(50927)
 
 ##total bilirubin, 
 d_labitems %>% filter(label %LIKE% "%ili%" & fluid =="Blood" & category =="Chemistry")
@@ -291,6 +291,7 @@ write.csv(potassium_tb2,"C:/Users/Repository/mimicr4_R/output/potassium.csv")
 
 
 
+###----------------------------------------------------------------------------------
 
 
 
